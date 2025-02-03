@@ -9,7 +9,7 @@
 	* umožňuje sériovou komunikaci a může být použita pro připojení k zařízením pomocí sériové sběrnice, jako je RS-232 nebo RS-485
 * Serial Peripheral Interface *(SPI)*
 	* sériové periferní rozhraní
-	* pro komunikaci mezi řídícími mikroprocesory a ostatními integrovanými obvody (EEPROM, [[MO4 Signály#AD|A/D převodníky]], displeje...)
+	* pro komunikaci mezi řídícími mikroprocesory a ostatními integrovanými obvody (EEPROM, [[M04 Signály#AD|A/D převodníky]], displeje...)
 	* komunikace je realizována pomocí společné sběrnice
 	* rozdělení zařízení
 		* master
@@ -38,9 +38,9 @@
 	* identifikátor definuje obsah zprávy a zároveň i její prioritu
 * Ethernet
 	* pro průmyslové aplikace vyžadující síťovou konektivitu některé MCU obsahují integrovaný Ethernet kontrolér
-* [[MO6 Přenos informace#Modulace|Pulse Width Modulation]]
-* [[MO4 Signály#AD|A/D převodníky]]
-* [[MO4 Signály#DA|D/A převodníky]]
+* [[M06 Přenos informace#Modulace|Pulse Width Modulation]]
+* [[M04 Signály#AD|A/D převodníky]]
+* [[M04 Signály#DA|D/A převodníky]]
 * Watchdog Timer
 	* periferie resetující systém při jeho zacyklení (k zacyklení může dojít chybou hardwaru nebo softwaru)
 # Výhody sériové sběrnice
@@ -111,7 +111,7 @@
 * pracuje na asynchronním principu (hodiny nejsou generovány konstantní frekvencí); data jsou přenášena na hranu hodinového signálu
 * podpora různé rychlosti přenosu dat
 * pracovní napětí není pevně dáno; obvykle 0 V až 3.3 V nebo 5 V
-* přenosová rychlost zmíněna [[MO7 Sběrnice#Standardy|zde]]
+* přenosová rychlost zmíněna [[M07 Sběrnice#Standardy|zde]]
 ## RS-232
 * asynchronní komunikace
 * dvě linky pro komunikaci
@@ -128,6 +128,7 @@
 	* D- *(Data Minus)* - přenáší data
 * možnost připojování a odpojování zařízení bez nutnosti vypínat počítač
 * zařízení jsou rozlišena jako master (host) nebo slave (periferní zařízení)
+* differenciální bus
 * různé typy USB portů; každý má specifické použití a tvar konektoru
 	* USB-A
 	* USB-B
@@ -139,7 +140,7 @@
 	* USB 1.0, 2.0 a 3.0 obvykle 5 V
 	* USB 3.1 a 3.2 až 20 V
 ## TWI
-* kompatibilní s [[MO8 Jednoduché sériové sběrnice#I²C|I²C]]
+* kompatibilní s [[M08 Jednoduché sériové sběrnice#I²C|I²C]]
 * termín `TWI` byl používán kvůli ochranným známkám spojeným se značkou I²C
 * využívá dvě linky pro komunikaci - datovou linku (SDA) a hodinovou linku (SCL)
 * připojené zařízení má jedinečnou 7 nebo 10bitovou adresu
@@ -156,4 +157,4 @@
 	* kontrolní součet/číslo
 	* stop bity - signalizují konec každého bajtu nebo bloku dat
 	* další metadata
-![¯\\_(ツ)_/¯](../23w49/TVP_6_12_23.png)
+![¯\\_(ツ)_/¯](TVP_6_12_23.png)

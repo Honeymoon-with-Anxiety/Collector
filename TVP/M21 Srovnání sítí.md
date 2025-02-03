@@ -52,7 +52,7 @@
 	* mohou výrazně snížit dosah
 	* pomáhají minimalizovat rušení mezi různými sítěmi v přeplněném prostředí
 * dosah přístupového bodu je ~20 metrů v interiéru; až 150 metrů ve venkovním prostředí
-* zajišťuje komunikaci na [[M19 Standardizace v oblasti sítí#^61e86e|linkové vrstvě]] - přenáší zapouzdřené ethernetové packety
+* zajišťuje komunikaci na [[M19 Standardizace v oblasti sítí#^LinkovaVrstva|linkové vrstvě]] - přenáší zapouzdřené ethernetové packety
 * SSID
 	* řetězec až 32 ASCII znaků
 	* rozlišuje jednotlivé sítě

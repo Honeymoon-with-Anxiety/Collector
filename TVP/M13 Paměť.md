@@ -26,10 +26,10 @@
 	* zabránění přístupu procesu k paměti mimo jeho přidělený region
 	* podpora střídavého běhu více procesů
 * architektury
-	* [[MO3 Počítačové architektury číslicových strojů#Von Neumannova architektura|Von Neumannova]]
+	* [[M03 Počítačové architektury číslicových strojů#Von Neumannova architektura|Von Neumannova]]
 
   ![Schéma Von Neumannovy architektury](https://upload.wikimedia.org/wikipedia/commons/4/4a/Von_Neumannova_architektura_PC.svg)
-	* [[MO3 Počítačové architektury číslicových strojů#Harvardská architektura|Harvardská]]
+	* [[M03 Počítačové architektury číslicových strojů#Harvardská architektura|Harvardská]]
 
   ![Schéma Harvardské architektury PC](https://upload.wikimedia.org/wikipedia/commons/1/17/Harvardska_architektura.svg)
   * metody správy
@@ -73,7 +73,7 @@
 # Paměť flash
 * je energicky nezávislá a elektricky zapisovatelná
 * asynchronní a nedá se taktovat
-* organizována po blocích (1 blok = [?] bytů); každý blok lze programovat samostatně
+* organizována po blocích; každý blok lze programovat samostatně
 * používá se jako paměť typu ROM např. pro uložení firmware
 * lze ji znovu naprogramovat bez nutnosti vyjmutí čipu
 * využívá se v přenosném datovém médiu (např.: SD karta, USB Flash disk, SSD disky)
@@ -135,7 +135,7 @@
   * využívá se pro uložení mezivýpočtů a adres
   * procesor má několik málo desítek registrů různých typů
 	  * uživatelsky-přístupné registry
-		  * datové registry - pro uložení číselných hodnot, jako jsou [[MO2 Informace ve výpočetní technice#Celé číslo|integer]] a float
+		  * datové registry - pro uložení číselných hodnot, jako jsou [[M02 Informace ve výpočetní technice#Celé číslo|integer]] a float
 		  * adresové registry
 			  * uchovávají adresy
 			  * používané instrukcemi, které přistupují do paměti nepřímo

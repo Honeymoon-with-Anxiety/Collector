@@ -100,7 +100,7 @@ $$
 ## Celé číslo
 * nebo-li `integer`
 * jazyky mohou ale nemusí rozlišovat číslo bez znaménka a se znaménkem.
-* u většiny jazyků je číslo omezené intervalem a kódováno v [[MO2 Informace ve výpočetní technice#Záporná čísla|dvojkovém doplňku]].
+* u většiny jazyků je číslo omezené intervalem a kódováno v [[M02 Informace ve výpočetní technice#Záporná čísla|dvojkovém doplňku]].
 ## Zlomek
 * nulu v registru posuneme dle potřeby doleva (logické posuny fungují jako násobění/dělení)
 * cokoliv za nulou bude $\frac{1}{2^n}$ kde $n$ je pozice za nulou (indexujeme od `1`)

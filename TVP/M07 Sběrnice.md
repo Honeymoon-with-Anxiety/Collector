@@ -115,7 +115,7 @@
 	* synchronní multiplexování vyžaduje synchronizaci mezi všemi zařízeními na sběrnici
 	* sdílení sběrnice mezi více zařízeními může snížit náklady na infrastrukturu
 	* může docházet ke zpoždění v přenosu dat, protože různá zařízení musí čekat na svůj časový nebo frekvenční slot
-* [[MO7 Sběrnice#Standardy|Standardy]] a Kompatibilita
+* [[M07 Sběrnice#Standardy|Standardy]] a Kompatibilita
 * Formát datového přenosu
 	* struktura, organizace a způsob kódování dat
 	* data jsou organizována do datových rámců; rámec obsahuje hlavičku (informace o adrese, délce dat, kontrolních součtech atd.) a tělo dat
@@ -135,7 +135,7 @@
 		* hot-swapping zejména u serverů a systémů s podporou této funkce
 	* ExpressCard - pro připojení periferních zařízení k notebookům
 	* PCIe
-* [[MO7 Sběrnice#Organizace sběrnic|Typy sběrnic]]
+* [[M07 Sběrnice#Organizace sběrnic|Typy sběrnic]]
 # Vliv čipové sady základní desky
 * sady podporují různé generace a rychlosti sběrnic
 * sada určuje, kolik a jaké typy slotů jsou na základní desce k dispozici

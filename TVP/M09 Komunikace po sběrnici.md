@@ -1,26 +1,26 @@
 #technicke_vybaveni_pocitacu 
 # Komunikace
 ## Synchronní
-* přenosy se [[MO3 Počítačové architektury číslicových strojů#Synchronizace|synchronizují]] pomocí společného hodinového signálu *(CLK)*
+* přenosy se [[M03 Počítačové architektury číslicových strojů#Synchronizace|synchronizují]] pomocí společného hodinového signálu *(CLK)*
 * CLK
-	* je generován [[MO8 Jednoduché sériové sběrnice#Základní typy|masterem]]
+	* je generován [[M08 Jednoduché sériové sběrnice#Základní typy|masterem]]
 	* určuje, kdy mají být data čtena nebo zapsaná
 	* určuje rychlost přenosu dat
-* data jsou posílána v [[MO8 Jednoduché sériové sběrnice#Pakety|rámcích]]; obsahují bit určující čas čtení/zápisu
+* data jsou posílána v [[M08 Jednoduché sériové sběrnice#Pakety|rámcích]]; obsahují bit určující čas čtení/zápisu
 * přenosy jsou náchylnější na rušení elektromagnetickým polem; ztráty se objevují také i na přenosech ve velké vzdálenosti
 ## Asynchronní
 * místo hodin komunikace používá dva signály navíc, zejména start a stop bity ke znázornění začátku a konce každého bytu dat
 * zařízení mezi sebou komunikují různou rychlostí; rychlosti jsou nastavovány pomocí baudové rychlosti *(počet bitů přenesených za jednu sekundu; rychlost musí být stejně nastavená na obou stranách)*
-* náchylnější na chyby dat; obsahuje [[MO6 Přenos informace#Parita|paritní bity]] sloužící k opravě chyb
+* náchylnější na chyby dat; obsahuje [[M06 Přenos informace#Parita|paritní bity]] sloužící k opravě chyb
 ## Výhody a nevýhody
 * výhody
 	* umožňuje snadné propojení více zařízení do jednoho systému
 	* možnost přidávat nová zařízení nebo aktualizovat stávající bez fyzické změny připojení
 	* poskytují centralizovaný přístup k zk. systémovým zdrojům
 * nevýhody
-	* omezená [[MO7 Sběrnice#Standardy|šířka pásma]] ovlivňující výkon systému
+	* omezená [[M07 Sběrnice#Standardy|šířka pásma]] ovlivňující výkon systému
 	* může docházet ke kolizím
-	* omezená [[MO7 Sběrnice#Standardy|délka sběrnice]]
+	* omezená [[M07 Sběrnice#Standardy|délka sběrnice]]
 	* můžou se objevovat chyby při přenosu způsobující nespolehlivou komunikaci
 # Přidělení sběrnice
 ## Obvody
@@ -63,7 +63,7 @@
 * stavový automat
 # Multiplexovaná sběrnice
 * několik zřízení sdílí fyzické médium přenosu dat
-## [[MO4 Signály#časový|Časově]]
+## [[M04 Signály#časový|Časově]]
 * zařízení je přiřazen časový slot, kdy může posílat/přijímat data
 * časové sloty mohou být
 	1) statické - čas. slot je pevně daný
@@ -71,9 +71,9 @@
 * ostatní zařízení musí čekat na svůj čas. slot
 * výhodou je snížení konfliktů o přístup ke sběrnici, jednoduchá implementace a efektivní využití přenos. média
 ![Multiplex s časovým dělením](https://upload.wikimedia.org/wikipedia/commons/e/e0/Telephony_multiplexer_system.gif)
-## [[MO4 Signály#frekvenční|Frekvenčně]]
+## [[M04 Signály#frekvenční|Frekvenčně]]
 * signálům jsou přiřazené různé frekvence kmitočtového pásma po kterých jsou vysílané
-* je možné realizovat amplitudovou [[MO6 Přenos informace#Modulace|modulací]]
+* je možné realizovat amplitudovou [[M06 Přenos informace#Modulace|modulací]]
 * vysílání obsahuje více frekvencí současně
 * datové toky jsou následně kombinovány do komplexního signálu
 ![Přenos tří signálů pomocí kmitočtového dělení](https://upload.wikimedia.org/wikipedia/commons/f/f1/Frequenzmultiplex001.svg) *Schutzbänder = ochranné pásmo*
@@ -127,7 +127,7 @@
 	* může být složitá na implementaci
 ## Řešení
 * softwarové
-	* plánování přístupu pomocí algoritmů např.: [[MO9 Komunikace po sběrnici#Základní techniky|Round Robin, Priority Scheduling]] nebo Shortest Job Next
+	* plánování přístupu pomocí algoritmů např.: [[M09 Komunikace po sběrnici#Základní techniky|Round Robin, Priority Scheduling]] nebo Shortest Job Next
 	* pomocí synchronizačních mechanismů (semafor, mutex, atd.)
 	* pomocí CSMA/CS nebo CSMA/CA
 * hardwarové 

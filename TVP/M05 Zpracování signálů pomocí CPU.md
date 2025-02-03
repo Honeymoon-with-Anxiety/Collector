@@ -58,7 +58,7 @@
 	* vnější popis považuje systém za neznámý objekt; zobrazení: **vstup → výstup**
 	* u filtru s vnitřním popisem známe strukturu systému; zobrazení: **vstup → stav systému → výstup**
 # AD multiplex
-* je [[MO4 Signály#AD]|AD převodník]] s multiplexorem
+* je [[M04 Signály#AD]|AD převodník]] s multiplexorem
 * multiplexor umožňuje přepínat mezi různými analogovými vstupy na jednom mikrokontroléru
 * umožňuje jednomu MCU zpracovávat více analog. vstupů současně
 * užitečný pro např. monitorování senzorů, zpracování zvuku
@@ -72,7 +72,7 @@
 ![Typické použití napěťové reference během AD převodu](https://vyvoj.hw.cz/files/redaktor1396/01_9.png)
 # Rekonstrukce a záznam signálu
 ## Rekonstrukce
-* teoreticky je bezchybná pokud je dodržena [[MO4 Signály#Vzorkovací teorém|podmínka]] 
+* teoreticky je bezchybná pokud je dodržena [[M04 Signály#Vzorkovací teorém|podmínka]] 
 * obnova a generace analog. signálů na základě digi. dat
 * MCU postupně posílá digitální vzorky které jsou konvertovány na odpovídající analogovou hodnotu
 ## Záznam

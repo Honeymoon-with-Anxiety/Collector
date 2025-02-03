@@ -2,10 +2,10 @@
 * přenos zdigitalizovaného analogového signálu pomocí přenosového média
 * zahrnuje *vysílání* a *příjem*
 * datová komunikace zahrnuje i přípravu k odeslání, řízení přenosu a procesy navazující na příjem
-# [[MO4 Signály#Vzorkovací teorém|Vzorkovací teorém]]
+# [[M04 Signály#Vzorkovací teorém|Vzorkovací teorém]]
 * "K dosažení přesné rekonstrukce spojitého signálu s omezeným frekvenčním rozsahem z jeho vzorků je potřeba, aby vzorkovací frekvence přesáhla dvojnásobek frekvence nejvyšší harmonické složky vzorkovaného signálu."
 * v praxi se vzorkovací volí dvakrát větší plus rezerva
-# [[MO4 Signály#Šířka pásma|Šířka pásma]]
+# [[M04 Signály#Šířka pásma|Šířka pásma]]
 * rozdíl mezi nejvyšší a nejnižší frekvencí přenášeného signálu
 * vyjádřeno v hertzech (Hz)
 * v informatice se používá ve smyslu přenosové rychlosti

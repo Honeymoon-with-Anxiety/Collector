@@ -66,7 +66,7 @@
 * určuje kolikabitový daný procesor je (8bitový dokáže zpracovat max číslo 0-255; $<0; 2^{n}- 1>$)
 * větší čísla musí být rozdělena na menší a musí být zpracována po částech
 * vnější - jak velké číslo je procesor schopen vyslat/přijmout na systémovou sběrnici
-## [[MO7 Sběrnice#Parametry sběrnice|adresové sběrnice]]
+## [[M07 Sběrnice#Parametry sběrnice|adresové sběrnice]]
 * určuje kolik bitů může být přeneseno najednou mezi různými částmi systému za jednu přenosovou operaci nebo hodinový cyklus
 * např 32bitová sběrnice umožňuje přenos 32 bitů najednou
 * širší sběrnice obvykle umožňují rychlejší přenos dat, protože mohou přenášet více bitů najednou

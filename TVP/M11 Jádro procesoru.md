@@ -24,7 +24,7 @@
 		* velikost tranzistorů
 		* méně nanometrů = víc tranzistorů = větší výkon 😃
 	* podle spotřeby energie
-	* podle [[MO3 Počítačové architektury číslicových strojů|architektury paměti]]
+	* podle [[M03 Počítačové architektury číslicových strojů|architektury paměti]]
 # Výkon procesoru
 * ovlivněn taktem - kolik operací procesor provede za jednu sekundu; v Hz
 * počet jader - umožňuje paralelní zpracování více úloh současně bez potřeby přetaktování

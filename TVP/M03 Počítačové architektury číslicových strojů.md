@@ -11,7 +11,7 @@
 ![Von Neumannova architektura](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Von_Neumann_Architecture_CZ.svg/220px-Von_Neumann_Architecture_CZ.svg.png)
 # Harvardská architektura
 * odděluje fyzický paměť programu a jejich spojovací obvody
-* název pochází z prvního počítače využívající tuto architekturu [[MO1 Motivace vzniku počítače#Nultá generace|Harvard Mark I]]; instrukce byly uloženy na děrované pásce a data na elektromechanických deskách
+* název pochází z prvního počítače využívající tuto architekturu [[M01 Motivace vzniku počítače#Nultá generace|Harvard Mark I]]; instrukce byly uloženy na děrované pásce a data na elektromechanických deskách
 * CPU může současně číst instrukci z programové paměti a přistupovat do paměti dat
 * používá se ve specializovaných procesorech, obvykle v audio/video technice
 ## Paměť

@@ -74,7 +74,7 @@
 		* `opcode | d`
 			* `d` → adresa destinace skoku
 
-![Instruction Format of RISC](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.IuwuxpM8SHz8ayVylTbtPwHaGO%26pid%3DApi&f=1&ipt=dceadc4fabacf92783c3696efdc116e935698c9284822c63c2f931e661793a29&ipo=images)
+![Instruction Format of RISC](TVP_11_11_24.png)
 # Operační
 ## jednotka
 * aritmetické a logické operace provádí odděleně od těch ostatních

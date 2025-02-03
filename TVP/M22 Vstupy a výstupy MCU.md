@@ -1,5 +1,5 @@
 #technicke_vybaveni_pocitacu 
-* o signálech více [M04](obsidian://open?vault=E3A&file=TVP%2FMO4%20Sign%C3%A1ly)
+* o signálech více [[M04 Signály]]
 # Vstupně výstupní pin
 * univerzální kontakt na obvodu sloužící jak pro vstup, tak pro výstup signálu (čte i odesílá el. signál)
 * digitální piny - pracují s diskrétními hodnotami reprezentovanými jako log. 0 a log. 1; hodnoty jsou definovány konkrétním napěťovým rozsahem
@@ -80,8 +80,8 @@ out	PortA, ZeroReg ;nastaveni prazdne hodnoty vystupu portu A
 * ochranné obvody
 	* chrání pin MCU před přetížením, přepětím a elektrostatickým výbojem
 	* diody, tranzistory, varistory
-* [ADC](obsidian://open?vault=E3A&file=TVP%2FMO4%20Sign%C3%A1ly%23AD)
-* [DAC](obsidian://open?vault=E3A&file=TVP%2FMO4%20Sign%C3%A1ly%23DA)
+* [[M04 Signály#AD|ADC]]
+* [[M04 Signály#DA|DAC]]
 # Druhy vstupního a výstupního signálu
 * podle typu
 	* analogové - spojitá hodnota v určitém rozsahu; nejčastěji reprezentuje fyzikální veličiny

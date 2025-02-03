@@ -24,7 +24,7 @@
 		* dva 8-bitové časovače/čítače se samostatně nastavitelným škálováním a režimem porovnání
 		* jeden 16-bitový časovač/čítač
 		* reálný časový čítač s odděleným osciloskopem
-		* 10-bitový [[MO4 Signály#AD|ADC převodník]]
+		* 10-bitový [[M04 Signály#AD|ADC převodník]]
 		* Master/Slave SPI sériová sběrnice
 		* programovatelný Watchdog (resetuje systém pokud se zacyklí) s odděleným on-chip oscilátorem
 		* on-chip analogový komparátor
@@ -52,10 +52,10 @@
 	* ROM - pro uložení firmwaru
 	* RAM - dočasné uložení dat pro probíhající procesy
 	* I/O porty - komunikace s externími perifériemi
-	* časovače a čítače - měření času, [[MO5 Zpracování signálů pomocí CPU#DA převodník pomocí PWM|PWM]] signály a další časově závislé úkoly
-	* [[MO4 Signály#AD|AD]]/[[MO4 Signály#DA|DA]] převodníky
+	* časovače a čítače - měření času, [[M05 Zpracování signálů pomocí CPU#DA převodník pomocí PWM|PWM]] signály a další časově závislé úkoly
+	* [[M04 Signály#AD|AD]]/[[M04 Signály#DA|DA]] převodníky
 	* UART *(Universal Asynchronous Receiver/Transmitter)* - sběrnice pro async. sériový přenos
-	* [[MO7 Sběrnice#Standardy|SPI, I2C]], GPIO (univerzální vstup/výstup)
+	* [[M07 Sběrnice#Standardy|SPI, I2C]], GPIO (univerzální vstup/výstup)
 	* Watchdog Timer - periferie resetující systém při jeho zacyklení (k zacyklení může dojít chybou hardwaru nebo softwaru)
 * používá RISC architekturu
 * současný běh jádra s perifériemi

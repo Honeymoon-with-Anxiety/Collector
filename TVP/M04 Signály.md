@@ -1,6 +1,6 @@
 #technicke_vybaveni_pocitacu
 # Signál
-* signál je smluvené znamení určená pro přenos [[MO2 Informace ve výpočetní technice|informace]]
+* signál je smluvené znamení určená pro přenos [[M02 Informace ve výpočetní technice|informace]]
 * má různé formy (krátký zvuk, mluvené slovo, rozsvícení kontrolky) i účely (gesta vojenského velitele, televizní signál)
 * může nést informace o události, povelu, zahájení činnosti, výstraze
 * obsahuje malé množství informací - zachycuje okamžitý stav/událost
@@ -87,4 +87,4 @@ $$ B = f_{H}-f_{l}$$
 * při nesplnění podmínky dochází k překrytí frekvenčních spekter a ke ztrátě informace
 * slovo `aliasing` znamená v češtině `falšování`; původní frekvence spojité informace je totiž vzorkováním zcela zfalšována
 * známou ukázkou aliasingu jsou kola, která se zdánlivě točí opačně nebo nesprávnou rychlostí (na videu)
-* následky aliasingu se odstraňují těžce, proto se před [[MO4 Signály#Převodník|převodník]] zařazuje antialiasingový filtr (dolní propust)
+* následky aliasingu se odstraňují těžce, proto se před [[M04 Signály#Převodník|převodník]] zařazuje antialiasingový filtr (dolní propust)

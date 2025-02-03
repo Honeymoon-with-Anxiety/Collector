@@ -16,7 +16,7 @@
 	* původní rychlost byla 4 Mbit/s, později 16 Mbit/s, 100 Mbit/s a 1 Gbit/s
 # Síťová karta
 * zařízení pro propojení počítačů v síti
-* může být externí ve formě karty ([PCIe](obsidian://open?vault=E3A&file=TVP%2FMO7%20Sb%C4%9Brnice) sběrnice na zk. desce) nebo integrovaná; pro laptopy se dají připojit i přes USB
+* může být externí ve formě karty ([[M07 Sběrnice|PCIe]] sběrnice na zk. desce) nebo integrovaná; pro laptopy se dají připojit i přes USB
 * každá karta má od výrobce určenou [[M19 Standardizace v oblasti sítí#MAC|MAC adresu]]
 * obsahuje
 	* specializovaný komunikační obvod - specializovaný komunikační procesor obsahující vše, co komunikace přes síť vyžaduje
@@ -53,7 +53,7 @@
 * obsahuje menší i větší počet portů
 * posílá síťový provoz jen do portů, do kterých je třeba
 * způsoby přeposílání packetů
-	* store and forward - packet z jednoho portu přijme; uloží si jej do [bufferu](obsidian://open?vault=E3A&file=TVP%2FM11%20J%C3%A1dro%20procesoru%23%5Ebuffer); prozkoumá hlavičky; odešle packet do příslušného portu
+	* store and forward - packet z jednoho portu přijme; uloží si jej do [[M11 Jádro procesoru#^buffer|bufferu]]; prozkoumá hlavičky; odešle packet do příslušného portu
 	* cut-through switching - k analýze hlaviček dochází, když dorazí začátek packetu; jakmile je destinace určena, začne se packet odesílat (nečeká se na celý packet)
 	* fragment free - přeposlání packetu začne až po přijetí 64 bytů (pro detekci kolize); pro sítě kde je do switche připojen hub
 	* adaptive switching - automatické přepínání mezi metodami cut-through switching a store and forward
