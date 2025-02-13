@@ -1,11 +1,20 @@
 #technicke_vybaveni_pocitacu 
+* vykonává instrukce a <něco> HW
+	* HW - kombinační a paměťové prvky
+		* kombinační prvky
+			* hradla, z <něco>, propagační zpoždění
+			* na základě vstupu produkuje výstup
+		* stavový stroj - automaton
+			* synchronní - všechny paměťové prvky sdílí hodinový signál
+			* asynchronní - nesdílí hodinový signál
 * ovlivňuje výkon procesoru
 * umožňuje paralelní zpracování sad instrukcí
 * klasifikace procesorů
 	* podle architektury
 		* RISC
-			* skromný soubor instrukcí = delší zdroj
+			* skromný soubor instrukcí (zhruba 100 instrukcí) = delší zdroj
 			* jedna instrukce - jedna operace
+			* [[M10 Základní cyklus počítače#Formát instrukce|formát instrukce]]
 			* levnější
 			* např. ARM
 		* CISC
