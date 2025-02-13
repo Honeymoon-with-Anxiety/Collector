@@ -11,6 +11,7 @@
 	* během dekódování jsou jednotlivé části instrukce identifikovány pro další zpracování
 	* pomocí opcode je určeno, jakou operaci instrukce představuje
 	* pokud instrukce potřebuje operandy, dekódování je identifikuje a připraví k použití
+	* v instrukční sadě je určeno, jak dekódovat operece
 3) provedení *([execute](https://www.youtube.com/watch?v=ESx_hy1n7HA))*
 	* vykonává operaci definovanou dekódovanou instrukcí (např.: aritmetické operace, logické operace, přesuny dat, skoky nebo další)
 	* po provedení instrukce se aktualizují stavové registry obsahující informace o procesoru (např. přetečení)
@@ -56,6 +57,9 @@
 # Formát instrukce
 * AVR používá specifický formát založený na RISC formátu
 * instrukce v AVR arch. jsou 16bitové
+* velikost instrukce - minimální velikost pipeline musí být 17 bitů
+	* opcode potřebuje 7 bitů - 100 instrukcí
+	* na adresaci registrů potřebujeme 5 bitů - 32 registrů
 * instrukce
 	* typu R *(-egistr)*
 		* pracuje s registry
