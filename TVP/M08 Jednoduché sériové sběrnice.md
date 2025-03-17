@@ -92,12 +92,13 @@
 # Sběrnice
 ## SPI
 * hlavní zařízením komunikuje s jedním nebo více periferními zařízeními pomocí čtyř nebo více signálů
-* může současně přenášet data z masteru na slave a z slave zpět na master (full-duplex)
-* společný hodinový signál mezi masterem a slavem
-* SCLK *(Serial Clock)* - hodinový signál generovaný masterem řídící přenos dat
-* MOSI *(Master Out Slave In)* - datový signál posílaný z mastera do slave zařízení
-* MISO *(Master In Slave Out)* - datový signál posílaný z slave zařízení do mastera
-* SS/CS *(Slave Select/Chip Select)* - signál oznamující, s kterým slave zařízením master komunikuje
+* může současně přenášet data z masteru na slave a z slave zpět na master (**full-duplex**)
+* společný hodinový signál mezi masterem a slavem (**synchronní**)
+* 4 vodiče
+	* SCLK *(Serial Clock)* - hodinový signál generovaný masterem řídící přenos dat
+	* MOSI *(Master Out Slave In)* - datový signál posílaný z mastera do slave zařízení
+	* MISO *(Master In Slave Out)* - datový signál posílaný z slave zařízení do mastera
+	* SS/CS *(Slave Select/Chip Select)* - signál oznamující, s kterým slave zařízením master komunikuje
 * délka datového slova může být nastavena podle potřeby
 * master řídí začátek, konec a rychlost přenosu dat
 * přenosová rychlost aý 8 Mb/s
@@ -108,20 +109,23 @@
 	* SCL *(Serial Clock Line)* - pro hodinový signál
 * master vybírá s jakým zařízením komunikovat pomocí adresy
 * možnost připojení více master/slave zařízení
-* pracuje na asynchronním principu (hodiny nejsou generovány konstantní frekvencí); data jsou přenášena na hranu hodinového signálu
+* pracuje na **asynchronní**m principu (hodiny nejsou generovány konstantní frekvencí); data jsou přenášena na hranu hodinového signálu
 * podpora různé rychlosti přenosu dat
 * pracovní napětí není pevně dáno; obvykle 0 V až 3.3 V nebo 5 V
 * přenosová rychlost zmíněna [[M07 Sběrnice#Standardy|zde]]
+* dá se připojit 
 ## RS-232
 * asynchronní komunikace
 * dvě linky pro komunikaci
-	* TX *(Transmit)* - slouží k přenosu dat z vysílacího zařízení
+	* TX *(Transmit)* - slouží k přenosu dat z vysílacího zařízení; začátek vysílání vysláním bitové sekvence `0101`
 	* RX *(Receive)* - slouží k příjmu dat přijímacího zařízení
 * provozní napětí
-	* log. nula - (+3; 15) V
-	* log. jednička - (-3; -15) V
+	* log. nula - +3 V
+	* log. jednička - -3 V
 * rychlost přenosu v rozmezí od 300 bps *(bitů za sekundu)* do 115200 bps
 * používána pro vzdálený přístup k počítačům a řízení zařízení na dálku
+* velikost pakety
+* ochrana kódu
 ## USB
 * využívá čtyři vodiče, ale primárně pracuje s dvěma hlavními linkami
 	* D+ *(Data Plus)* - přenáší data

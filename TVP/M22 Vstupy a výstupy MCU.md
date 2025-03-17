@@ -35,7 +35,7 @@
 		* ...
 * konfigurace v ATmega16 (v `Reset` obsluze)
 
-```assembly
+```asm
 clr ZeroReg ;vycisteni nuloveho registru
 ldi	TmpReg, 0xFF ;nastaveni hodnoty 255 do pracovniho registru
 out	DDRA, TmpReg ;nastaveni smeru portu A
