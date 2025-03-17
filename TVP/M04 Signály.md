@@ -19,6 +19,9 @@
 * běžně používány v elektronice, komunikacích, počítačových systémech
 * obvykle mnohem odolnější vůči rušení než analogové signály
 * jsou snadno reprodukovány, ukládány a zpracovávány pomocí digitálních zařízení, jako jsou počítače
+* překmit ![nákres](TVP_17_3_25.jpg)
+	* doba náběhu, úpadku (po vypnutí)
+	* překmyt
 # Převodník
 ## AD
 * součástka určená k převodu analogového signálu do digitálního
@@ -64,6 +67,8 @@ $$ B = f_{H}-f_{l}$$
 ## přeložené
 * určitý rozsah frekvencí v rámci celkového frekvenčního spektra signálu, který byl posunut nebo přemístěn z jeho původního frekvenčního umístění na jinou frekvenci
 * frekvence: vztahuje se k posunu nebo změně frekvenčního rozsahu signálu
+## neurčitosti
+* nedokážeme určit, zda je signál 1 nebo 0
 # Multiplex
 ## časový
 * přenos více signálů jedním přenosovým médiem
