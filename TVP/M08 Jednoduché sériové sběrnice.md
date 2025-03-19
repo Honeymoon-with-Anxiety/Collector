@@ -124,7 +124,11 @@
 	* log. jednička - -3 V
 * rychlost přenosu v rozmezí od 300 bps *(bitů za sekundu)* do 115200 bps
 * používána pro vzdálený přístup k počítačům a řízení zařízení na dálku
-* velikost pakety
+* velikost pakety 10 bitů
+	* start bit (1 bit)
+	* datové bity (7 nebo 8 bitů)
+	* paritní (0 nebo 1 bit)
+	* stop bit (1 bit)
 * ochrana kódu
 ## USB
 * využívá čtyři vodiče, ale primárně pracuje s dvěma hlavními linkami
