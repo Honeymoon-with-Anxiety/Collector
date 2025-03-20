@@ -93,3 +93,15 @@ $$ B = f_{H}-f_{l}$$
 * slovo `aliasing` znamená v češtině `falšování`; původní frekvence spojité informace je totiž vzorkováním zcela zfalšována
 * známou ukázkou aliasingu jsou kola, která se zdánlivě točí opačně nebo nesprávnou rychlostí (na videu)
 * následky aliasingu se odstraňují těžce, proto se před [[M04 Signály#Převodník|převodník]] zařazuje antialiasingový filtr (dolní propust)
+# Integrita
+* signál putuje mezi vysílačem a přijímačem
+* aby signál obsahoval interpretovatelné prvky je třeba aby měl určité **předem "domluvené"** charakteristiky
+	* protokol
+	* SNR (poměr signálu a šumu) (integrita)
+		* signál to noise ratio ("čitelnost signálu") → dokážu rozlišit logickou '1' od '0' ? ![SNR](/TVP/assets/TVP_20_3_25@1.png)
+* integrita signálu je čitelnost signálu přijímačem
+* signál degeneruje při prostupu přenosovým médiem (snižuje se SNR)
+* jak rozdělit problémy s integritou signálu?
+	* přeslechy → dva signály vedle sebe ![obr](/TVP/assets/TVP_20_3_25@2.png)
+	* odrazy → rohy na PCB ![obr](/TVP/assets/TVP_20_3_25@3.png)
+	* rozfázování ![obr](/TVP/assets/TVP_20_3_25@4.png)

@@ -111,6 +111,7 @@
 * levnější než optika
 * obtížněji napadnutelné než bezdrátové sítě
 * délka kabelu je omezena (zejména u vyšších rychlostí přenosu)
+* dosah 10 metrů
 * UTP
 	* ze dvou nebo více párů měděných drátů zkroucených dohromady
 	* kroucení snižuje elektromagnetické rušení
@@ -124,6 +125,11 @@
 * signál se v optickém vlákně tlumí mnohem méně než v měděném kabelu
 * nejsou ovlivněny elektromagnetickým rušením
 * vlákna jsou křehká a mohou se snadno poškodit
+* dosah 1 km
+* vlákno je tak tenké, že se dá ohnou
+* konec musí být leštěný určitým způsobem
+### Optický multiplex
+* více barev v jednom kanálu ![obr](/TVP/assets/TVP_20_3_25@5.png)
 # Konektory
 * fyzické propojení jednotlivých zařízení přenosovým médiem (nejčastěji kabel)
 * každý typ kabelu vyžaduje specifický typ konektoru
